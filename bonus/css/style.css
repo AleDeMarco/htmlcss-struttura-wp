@@ -1,0 +1,80 @@
+/* TAG */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://images6.alphacoders.com/371/thumb-1920-371656.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  height: 350px;
+  background-color: yellow;
+}
+
+main{
+  margin-top: 10px;
+}
+
+section.col{
+  width: calc(25% - 40px);
+}
+
+section.col.float-left{
+  height: 390px;
+  background-color: pink;
+}
+
+section.col.float-right{
+  height: 990px;
+}
+
+section.center{
+  width: 50%;
+  height: 350px;
+  background-color: violet;
+}
+
+footer{
+  height: 120px;
+  background-color: lightblue;
+}
+
+/* CLASS */
+.container{
+  width: 60vw;
+  margin: 20px auto;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col.float-left{
+  margin-right: 40px;
+}
+
+.col.float-right{
+  margin-left: 40px;
+}
+
+.widget{
+  width: 100%;
+  height: 310px;
+  margin-bottom: 20px;
+  background-color: azure;
+}
