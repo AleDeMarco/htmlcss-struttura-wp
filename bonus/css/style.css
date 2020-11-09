@@ -13,7 +13,6 @@ body{
 
 header{
   height: 350px;
-  background-color: yellow;
 }
 
 main{
@@ -26,7 +25,6 @@ section.col{
 
 section.col.float-left{
   height: 390px;
-  background-color: pink;
 }
 
 section.col.float-right{
@@ -36,12 +34,12 @@ section.col.float-right{
 section.center{
   width: 50%;
   height: 350px;
-  background-color: violet;
 }
 
 footer{
-  height: 120px;
-  background-color: lightblue;
+  height: 100px;
+  text-align: center;
+  background-color: lightgrey;
 }
 
 /* CLASS */
@@ -50,12 +48,29 @@ footer{
   margin: 20px auto;
 }
 
-.float-left{
-  float: left;
+.banner{
+  width: 100%;
+  height: 310px;
+  font-size: 150px;
+  text-align: center;
+  background-color: red;
 }
 
-.float-right{
-  float: right;
+.nav{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.link{
+  width: 90px;
+  height: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 25px;
+  display: inline-block;
+  background-color: grey;
 }
 
 .clearfix::after{
@@ -64,8 +79,33 @@ footer{
   clear: both;
 }
 
+.title{
+  width: 100%;
+  height: 15%;
+  font-size: 25px;
+  text-align: center;
+  background-color: green;
+}
+
+.box{
+  width: 100%;
+  height: 85%;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+  background-color: lightgreen;
+}
+
+.float-left{
+  float: left;
+}
+
 .col.float-left{
   margin-right: 40px;
+}
+
+.float-right{
+  float: right;
 }
 
 .col.float-right{
@@ -76,5 +116,21 @@ footer{
   width: 100%;
   height: 310px;
   margin-bottom: 20px;
-  background-color: azure;
+}
+
+.copy{
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+}
+
+.social{
+  width: calc(99% / 3);
+  height: 60px;
+  display: inline-block;
+  font-size: 60px;
+  text-align: center;
+  background-color: grey;
 }
